@@ -24,5 +24,5 @@ powershell
 Monitor-Process -ProcessName "notepad"
 ```
 
-
-Make sure to save the script with a ".ps1" extension (e.g., "monitor-process.ps1") and run it using PowerShell.
+⚠️ Make sure to save the script with a ".ps1" extension (e.g., "monitor-process.ps1") and run it using PowerShell.
+⚠️ Run the script using dot source
