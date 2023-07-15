@@ -1,5 +1,6 @@
 # Procmini
 
+Procmini is a sophisticated open-source tool designed for comprehensive process monitoring and analysis, specifically developed to cater to the needs of Red Team professionals and Defense experts. Your contribution to this project will be duly acknowledged and appreciated.
 
 ##workflow
 
