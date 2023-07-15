@@ -18,11 +18,22 @@ Finally, when the loop ends, the script displays a message indicating that proce
 
 You can use this script by calling the Monitor-Process function and providing the desired process name as a parameter. For example, to monitor the "notepad" process, you would use the following command:
 
-powershell
+### PowerShell
 
 ```
 Monitor-Process -ProcessName "notepad"
 ```
 
+
 ⚠️ Make sure to save the script with a ".ps1" extension (e.g., "monitor-process.ps1") and run it using PowerShell.
-⚠️ Run the script using dot source
+
+⚠️ Run the script using the dot source
+
+### Upcoming Features
+1. **Fileless Attack Detection**: Our upcoming release will include an advanced detection mechanism specifically designed to identify and mitigate fileless attacks. This feature aims to enhance the security posture of your systems by detecting and preventing attacks that leverage memory-resident techniques, reducing the risk of compromise.
+
+2. **In-Memory Process and Command Detection**: We are excited to introduce a powerful detection capability that focuses on identifying in-memory processes and commands. By monitoring and analyzing runtime activities, our tool will help you detect suspicious and potentially malicious activities occurring solely in the system's memory, providing valuable insights for proactive defense and incident response.
+
+3. **PowerShell Log Monitoring**: Our upcoming version will introduce a comprehensive monitoring solution for PowerShell logs. This feature will enable real-time analysis and alerting on PowerShell activities, allowing you to identify anomalous or malicious usage of PowerShell scripts and commands. By actively monitoring PowerShell logs, you can strengthen your organization's security posture and respond effectively to potential threats.
+
+Stay tuned for these exciting additions to our tool, designed to empower Red Teamers and Defense professionals in their ongoing efforts to secure and protect critical systems.
